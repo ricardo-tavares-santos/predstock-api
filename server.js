@@ -24,11 +24,20 @@ var db = require('knex')({
   client: 'pg',
   connection: {
     host : '127.0.0.1',
-    user : '',
+    user : 'postgres',
     password : '',
     database : 'predstock-api'
   }
 });
+// const { Pool } = require('pg')
+// const db = new Pool({
+  // user: 'postgres',
+  // host: '127.0.0.1',
+  // database: 'predstock-api',
+  // password: '',
+  // port: 5432,
+// })
+
 
 // Controllers - aka, the db queries
 const main = require('./controllers/main')

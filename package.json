@@ -1,7 +1,7 @@
 {
-  "name": "crudpractice1",
+  "name": "predstock",
   "version": "1.0.0",
-  "description": "crud practice",
+  "description": "predstock",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
