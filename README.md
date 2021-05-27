@@ -83,6 +83,14 @@ CREATE TABLE MachineLearning_PatternDetector (
  profit_7_dayTrading int
 );
 
+**7. Start **
+
+```
+npm start
+```
+
+Now your backend is completely setup and should be running on Port 3000.
+
 
 ## predstock Frontend
 View the [repository for the frontend](https://github.com/ricardo-tavares-santos/predstock-frontend) that goes along with this API. It uses React and Bootstrap to display a responsive data table. It serves as the perfect starter for the frontend, however, you can use any frontend to access this API.
